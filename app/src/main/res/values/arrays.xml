@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="trainings">
+        <item>Peito e tríceps</item>
+        <item>Costas e bíceps</item>
+        <item>Ombro e perna</item>
+        <item>Peito, ombro e tríceps</item>
+        <item>Ombro e abdômen</item>
+        <item>Perna</item>
+    </string-array>
+
+    <string-array name="intensity">
+        <item>1 - Péssimo</item>
+        <item>2 - Ruim</item>
+        <item>3 - Médio </item>
+        <item>4 - Bom</item>
+        <item>5 - Excelente</item>
+    </string-array>
+</resources>

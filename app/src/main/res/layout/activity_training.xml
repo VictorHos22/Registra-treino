@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".TrainingActivity">
+
+    <TextView
+        style="@style/txtView_form_exercise"
+        android:text="@string/which_training" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/autoTextViewForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/auto_training"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        style="@style/txtView_form_exercise"
+        android:text="@string/which_intensity" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/autoTextViewForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <AutoCompleteTextView
+            android:id="@+id/auto_intensity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save_training"
+        style="@style/btn_salvar"
+        android:text="@string/save"/>
+
+
+</LinearLayout>

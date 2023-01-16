@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Registra Treino</string>
+    <string name="which_exercise">Qual exercício foi feito?</string>
+    <string name="which_weight">Qual peso na última série?</string>
+    <string name="how_many_repetitions">Quantas repetições na última série?</string>
+    <string name="name_exercise">nome do exercício</string>
+    <string name="weight">peso(kg)</string>
+    <string name="repetitions">repetições</string>
+    <string name="save">Salvar</string>
+    <string name="exercises">Ver exercícios salvos</string>
+    <string name="search">Buscar</string>
+    <string name="invalid_text">Preencha todos os campos</string>
+    <string name="want_to_save">Deseja salvar?</string>
+    <string name="exercise_text">Use esta função para acompanhar sua evolução, registrando a sua progressão de carga nos exercícios.</string>
+
+    <string name="simple_result">%1$s, %2$.1fkg, %3$dRep</string>
+    <string name="result">%1$s \nData: %2$s</string>
+    <string name="simple_training_result">Treino: %1$s \nPerformance: %2$s</string>
+
+
+    <string name="no">Não</string>
+    <string name="which_training">Qual o treino?</string>
+    <string name="which_intensity">Nota para o desempenho</string>
+</resources>

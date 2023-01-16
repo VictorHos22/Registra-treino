@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".ExerciseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:textSize="16sp"
+        android:text="@string/exercise_text"/>
+
+    <TextView
+        style="@style/txtView_form_exercise"
+        android:text="@string/which_exercise" />
+
+    <EditText
+        android:id="@+id/which_exercise"
+        android:hint="@string/name_exercise"
+        style="@style/edtText_form_exercises"/>
+
+    <TextView
+        style="@style/txtView_form_exercise"
+        android:text="@string/which_weight" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/which_weight"
+        android:hint="@string/weight"
+        style="@style/edtText_form_exercises"/>
+
+    <TextView
+        style="@style/txtView_form_exercise"
+        android:text="@string/how_many_repetitions"/>
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/how_many_repetitions"
+        android:hint="@string/repetitions"
+        style="@style/edtText_form_exercises"/>
+
+    <Button
+        android:id="@+id/btn_save_exercise"
+        style="@style/btn_salvar"
+        android:text="@string/save"/>
+
+
+
+</LinearLayout>
+</ScrollView>
