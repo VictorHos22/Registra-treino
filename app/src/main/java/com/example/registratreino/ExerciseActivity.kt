@@ -56,7 +56,9 @@ class ExerciseActivity : AppCompatActivity() {
                     runOnUiThread{
                         openListActivity()
                     }
-
+                        edtNameExercise.setText("")
+                        edtWeight.setText("")
+                        edtRepetitions.setText("")
                     }.start()
                 }
                 .create()
